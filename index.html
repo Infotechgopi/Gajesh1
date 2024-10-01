@@ -1,0 +1,31 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive meta tag for mobile compatibility -->
+  <title>Goat Game</title>  
+  <link rel="stylesheet" href="style.css">  
+</head>  
+<body>  
+  <div class="game-area">  
+    <div class="road">  
+      <div class="goat" id="goat">  
+        <img src="./assets/goat.png" alt="">  
+      </div>  
+      <div class="object leaf" id="leaf">  
+        <img src="./assets/leaf1.png" alt="">  
+      </div>  
+      <div class="object bike" id="bike">  
+        <img src="./assets/bike1.png" alt="">  
+      </div>  
+    </div>  
+  </div>  
+  <div class="score">Score: <span id="score">0</span></div>  
+
+  <!-- Add audio elements for sound effects -->
+  <audio id="leaf-sound" src="./assets/leaf-sound.mp3"></audio>
+  <audio id="bike-sound" src="./assets/bike-sound.mp3"></audio>
+
+  <script src="script.js"></script>  
+</body>  
+</html>
